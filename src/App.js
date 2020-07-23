@@ -101,7 +101,7 @@ export default class App extends Component {
                 <h1 className="weather-text text-dark">Weather <strong>Forecast</strong></h1>
                 <div className='Imagers'>
                   {[...Array(3).keys()].map((i) => {
-                    return <Image cityGroup={cities[i]} imageGroup={images[i]} countryGroup={countries[i]} fetchWeather={this.getWeather.bind(this)}></Image>
+                    return <Image key={`Image-${i}`} cityGroup={cities[i]} imageGroup={images[i]} countryGroup={countries[i]} fetchWeather={this.getWeather.bind(this)}></Image>
                   })}
                 </div>
               </div>

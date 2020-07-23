@@ -162,18 +162,18 @@ img{
   padding: 0px;
 }
 
-a{
+.btn-link, a{
   transition: all 0.25s linear;
   position: relative;
   color: white !important;
   text-decoration: none !important;
 }
 
-a:hover{
+.btn-link:hover, a:hover{
   color: #ec782b !important;
 }
 
-a:before {
+.btn-link:before, a:before {
   content: "";
   display: block;
   width: 100%;
@@ -187,7 +187,7 @@ a:before {
   transition: 0.25s linear;
 }
 
-a:hover:before {
+.btn-link:hover:before, a:hover:before {
   transform: scale(1);
 }
 

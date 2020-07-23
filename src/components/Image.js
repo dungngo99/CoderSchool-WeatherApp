@@ -10,7 +10,7 @@ export default class Image extends Component {
             <div className='row ImageGroup'>
                 {
                     [...Array(4).keys()].map((i) => {
-                        return <div>
+                        return <div key={`${cities[i]}`}>
                             <button className='location-btn btn' id={`${cities[i]}`} onClick={() => getWeather(null, cities[i], 'city')}>
                                 <img src={`${images[i]}`} alt='...' ></img>
                             </button>
