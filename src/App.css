@@ -40,8 +40,8 @@
 }
 
 img{
-  width: 120px;
-  height: 140px;
+  width: 130px;
+  height: 150px;
   border-radius: 20px;
 }
 
@@ -61,6 +61,7 @@ img{
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 10px;
 }
 
