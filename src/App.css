@@ -41,7 +41,7 @@
 
 img{
   width: 120px;
-  height: 150px;
+  height: 140px;
   border-radius: 20px;
 }
 
@@ -118,7 +118,7 @@ img{
 
 .dn-header{
   background-color: rgb(234, 243, 243);
-  margin: 20px 5px;
+  margin: 35px 5px;
 }
 
 .weather-text{
