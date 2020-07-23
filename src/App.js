@@ -96,7 +96,7 @@ export default class App extends Component {
           <div className='row front-page'>
 
             <div className='col-md-8 main-section'>
-              <div className="justify-content-center text-center">
+              <div className="justify-content-center align-items-around text-center">
                 <Header searchCity={this.searchCity.bind(this)}></Header>
                 <h1 className="weather-text text-dark">Weather <strong>Forecast</strong></h1>
                 <div className='Imagers'>
