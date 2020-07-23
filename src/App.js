@@ -48,7 +48,7 @@ export default class App extends Component {
 
   async getWeather(latlon = null, cityName = null, fetchBy = 'city') {
     let apiKey = 'f89a7c459a1bb745851f7a1adc58324f'
-    let domain = 'http://api.openweathermap.org/data/2.5/weather?'
+    let domain = 'https://api.openweathermap.org/data/2.5/weather?'
 
     let urlByCity = cityName !== null ? `${domain}q=${cityName}&units=metric&appid=${apiKey}` : null
     let urlByLocation = latlon !== null ? `${domain}lat=${latlon[0]}&units=metric&lon=${latlon[1]}&appid=${apiKey}` : null
